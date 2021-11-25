@@ -1,0 +1,224 @@
+.search_container{
+
+    width: 25%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--section_background_color);
+    margin: 0 auto;
+    text-align: center;
+
+    border-right: 2px solid rgb(189, 189, 189);
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    overflow: scroll;
+}
+
+.search_container__section{
+    width: 100%;
+    padding-bottom: 20px;
+    margin-bottom: 35px;
+    border-bottom: 1px solid rgb(165, 165, 165);
+}
+
+.search_container__section:last-child{
+    border-bottom: 0px;
+}
+
+.section__name{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+
+
+/* ---- SEARCH IN ---- */
+
+.section__search_in{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.search_in__scope_button{
+
+    padding: 3px 10px;
+    background-color: var(--search_form__button--background_color);
+    color: var(--search_form__button--font_color);
+    border: 1px solid var(--search_form__button--border_color);
+    border-radius: 5px;
+    margin: 3px 5px;
+    width: fit-content;
+}
+
+.search_in__scope_button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.search_in__scope_button--active{
+
+    padding: 3px 10px;
+    background-color: var(--search_form__button_active--background_color);
+    color: var(--search_form__button_active--font_color);
+    border: 1px solid var(--search_form__button_active--border_color);
+    border-radius: 5px;
+    margin: 3px 5px;
+    width: fit-content;
+}
+
+.search_in__scope_button--active:hover{
+    cursor: pointer;
+}
+
+.search_in__scope_button--disabled{
+
+    padding: 3px 10px;
+    background-color: var(--search_form__button--background_color);
+    color: var(--search_form__button--font_color);
+    border: 1px solid var(--search_form__button--border_color);
+    border-radius: 5px;
+    margin: 3px 5px;
+    width: fit-content;
+    opacity: 50%;
+    cursor: default;
+}
+
+
+/* ---- SEARCHING PHRASE ---- */
+
+.section__searching_phrase{
+    width: 100%;
+    margin-bottom: 3px;
+}
+
+
+.section__searching_phrase > input{
+    width: 85%;
+    height: 35px;
+    padding: 0 20px;
+    border: 1px solid rgb(109, 109, 109);
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+
+
+/* ---- SORT BY ---- */
+
+.section__sort_by{
+    width: 100%;
+}
+
+.sort_by{   
+    display: grid;
+    grid-template-columns: 48% 48%;
+    column-gap: 4%;
+}
+
+.sort_by__button{
+    padding: 0 20px;
+    border: 1px solid rgb(109, 109, 109);
+    border-radius: 5px;
+    margin: 5px;
+    padding: 4px 0px;
+
+    background-color: var(--search_form__button--background_color);
+    color: var(--search_form__button--font_color);
+    border: 1px solid var(--search_form__button--border_color);
+}
+
+.sort_by__button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.sort_by__button--active{
+    padding: 0 20px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 4px 0px;
+
+    background-color: var(--search_form__button_active--background_color);
+    color: var(--search_form__button_active--font_color);
+    border: 1px solid var(--search_form__button_active--border_color);
+
+
+}
+
+.sort_by__button--active{
+    cursor: pointer;
+}
+
+
+.section__sort_by_page{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    column-gap: 4%;
+    justify-items: center;
+    margin-top: 15px;
+}
+
+.section__sort_by_page > input{
+    width: 75px;
+    height: 30px;
+    padding: 0 5px;
+    border: 1px solid rgb(109, 109, 109);
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+
+/* ---- URL ---- */
+
+.section__url_preview{
+
+    font-size: 19px;
+    margin-top: 15px;
+    text-align: left;
+}
+
+
+/* ---- SUBMIT BUTTON ---- */
+
+.search_container__submit_button{
+
+    height: 35px;
+    min-width: 125px;
+    font-size: 17px;
+    background-color: rgb(59, 59, 59);
+    background-color: #0078e1;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    padding: 3px 25px;
+
+}
+
+.search_container__submit_button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

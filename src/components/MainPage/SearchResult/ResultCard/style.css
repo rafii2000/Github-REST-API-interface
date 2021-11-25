@@ -1,0 +1,128 @@
+
+
+.result_card__result_number{
+    width: 50px;
+    font-size: 17px;
+    margin: auto 0px;
+    text-align: center;
+}
+
+.result_card__primary_link{
+    display: flex;
+    font-size: 18px;
+    margin: 5px 0px;
+    font-weight: 400;
+}
+
+.result_card__primary_link > a{
+    display: flex;
+    align-items: center;
+    color: #198ff6;
+    color: #0078e1;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.result_card__primary_link > a:hover{
+    text-decoration: underline;
+}
+
+.result_card__primary_link > a > svg{
+   margin-right: 4px;
+   flex-shrink: 0;
+}
+
+
+ .result_card__description{
+    color: rgb(70, 70, 70);
+    max-height: 150px;
+    overflow: hidden;
+ }
+
+
+.result_card__secondary_text{
+    color: black;
+    font-size: 14px;
+}
+
+/* --- INFORMATIONS --- */
+.result_card__informations{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 200px);
+    padding: 10px 0px;
+}
+
+/* --- SORT PARAMETERS --- */
+.result_card__sort_parameters{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 7px;
+}
+
+.result_card__sort_parameter{
+    color: black;
+    font-size: 14px;
+    margin-right: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.result_card__sort_parameter > svg{
+    margin-right: 3px;
+}
+
+
+
+
+/* --- MENU --- */
+.result_card__menu{
+    width: 120px;
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.result_card__menu__button{
+    padding: 5px 5px;
+    text-align: center;
+    border-radius: 7px;
+    background-color: whitesmoke;
+    color: #444;
+    border: 1px solid #444;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.result_card__menu__button:hover{
+    padding: 5px 5px;
+    text-align: center;
+    border-radius: 7px;
+    background-color: whitesmoke;
+    color: #444;
+    border: 1px solid #444;
+    margin: 5px;
+    cursor: pointer;
+    
+    /* override */
+    color: black;
+    border-color: black;
+}
+
+.result_card__menu__button--active{
+    padding: 5px 5px;
+    text-align: center;
+    border-radius: 7px;
+    background-color: whitesmoke;
+    color: #444;
+    border: 1px solid #444;
+    margin: 5px;
+    cursor: pointer;
+
+    /* override */
+    background-color: white;
+}
+
+

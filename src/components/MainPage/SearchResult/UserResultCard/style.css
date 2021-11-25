@@ -1,0 +1,10 @@
+.user_result_card{
+    display: flex;
+    /* flex-direction: column; */
+    margin: 10px 0px;
+    background-color: whitesmoke;
+}
+
+
+
+

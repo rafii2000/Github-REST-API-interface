@@ -1,0 +1,81 @@
+/* ---- MAIN CONTAINERS  ---- */
+
+.repo_result_card{
+
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+
+}
+
+.repo_basic_info{
+    width: 100%;
+    display: flex;
+    background-color: whitesmoke;
+    padding: 15px 10px 15px 0px;
+    padding: 15px 0px;
+}
+
+.repo_extra_info{
+    min-height: 0px;
+    width: calc(100% - 30px);
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    padding: 15px;
+    border-top: 1px solid #DDD;
+}
+
+
+/* ---- REPO BASIC INFORMATION  ---- */
+/* inherited from ResultCard/style.css */
+
+
+/* ---- REPO EXTRA INFORMATION  ---- */
+
+.repo_extra_info__button{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.repo_extra_info__button:hover{
+   cursor: pointer;
+   text-decoration: underline;
+}
+
+
+/* ---- CONTRIBUTORS ---- */
+
+.repo_contributors{
+
+    width: 100%;
+    display: grid;
+    padding-top: 20px;
+    grid-template-columns: 48% 48%;
+    column-gap: 4%;
+}
+
+
+/* ---- COMMITS ---- */
+.repo_commits{
+
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

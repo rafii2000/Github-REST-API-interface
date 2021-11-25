@@ -1,0 +1,138 @@
+.subpage{
+
+    width: 70%;
+    margin: 75px auto;
+    text-align: center;
+    display: flex;
+}
+
+.subpage__brief_column{
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    height: 300px;
+    background-color: whitesmoke;
+    height: fit-content;
+    align-items: center;
+    margin: 10px;
+    padding: 30px 15px; 
+    border-right: 1px solid rgb(194, 194, 194);
+    border-top: 1px solid rgb(194, 194, 194);
+    border-bottom: 1px solid rgb(194, 194, 194);
+    border-radius: 5px;
+   
+}
+
+
+.subpage__content_column{
+    display: flex;
+    flex-direction: column;
+    width: 72%;
+    height: fit-content;
+}
+
+.subpage__content_column > div{
+    margin: 10px;
+    padding: 15px 15px; 
+    border-radius: 5px;
+} 
+
+
+
+/* ---- BRIEF COLUMN ---- */
+
+.brief_column__brief_section{
+    width: 90%;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(194, 194, 194);
+}
+
+.brief_section__name{
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+
+
+/*  ABOUT USER  */
+
+.brief_section__details{
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.brief_section__detail{
+    color: rgb(50, 50, 50);
+    display: flex;
+    align-items: center;
+    margin-bottom: 3px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.brief_section__detail > a{
+    color: rgb(50, 50, 50);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.brief_section__detail > a:hover{
+    text-decoration: underline;
+    color: var(--primary_blue);
+    cursor: pointer;
+}
+
+.brief_section__detail > a > svg,
+.brief_section__detail > svg{
+    margin-right: 4px;
+    flex-shrink: 0!important;
+}
+
+
+
+/* ---- CONTENT COLUMN ---- */
+
+/*  NAV-BAR */
+.content_column__nav_bar{
+    display: flex;
+    justify-content: left;
+    background-color: whitesmoke;
+    border-left: 1px solid rgb(194, 194, 194);
+    border-top: 1px solid rgb(194, 194, 194);
+    border-bottom: 1px solid rgb(194, 194, 194);
+}
+
+.nav_bar__label{
+    margin: 0px 15px;
+}
+
+.nav_bar__label:hover{
+    color: var(--primary_blue);
+    cursor: pointer;
+}
+
+.nav_bar__label--active{
+    margin: 0px 15px;
+    color: var(--primary_blue);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.nav_bar__label--disabled{
+    margin: 0px 15px;
+    opacity: 50%;
+    cursor: default;
+}
+
+
+/*  CONTENT */
+.content_column__content{
+    border-left: 1px solid rgb(194, 194, 194);
+    border-top: 1px solid rgb(194, 194, 194);
+    border-bottom: 1px solid rgb(194, 194, 194);
+    text-align: left;
+}

@@ -1,0 +1,48 @@
+
+/* ---- FOLLOWER ---- */
+
+.follower{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: whitesmoke;
+    border-bottom: 1px solid rgb(185, 185, 185);
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.follower:hover{
+    /* background-color: #ffffff; */
+    /* border-bottom: 1px solid var(--primary_blue); */
+}
+
+.follower__img{
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    flex-shrink: 0;
+}
+
+.follower__img > img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.follower__login{
+    margin-left: 10px;
+    margin-right: 30px;
+    font-size: 18px;
+}
+
+.follower__login > a{
+    text-decoration: none;
+    color: black;
+}
+
+.follower__login > a:hover{
+    text-decoration: underline;
+    color: var(--primary_blue);
+    cursor: pointer;
+}

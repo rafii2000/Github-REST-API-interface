@@ -1,0 +1,105 @@
+.repo_subpage{
+
+    width: 70%;
+    margin: 75px auto;
+    display: flex;
+}
+
+
+/* REPO_NAME AND REPO_OWNER */
+.repo_name{
+    font-size: 28px;
+    color: var(--primary_blue);
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 10px;
+    display: flex;
+    white-space: nowrap;
+    overflow-x: hidden;
+    align-items:flex-end;
+}
+
+.repo_name > svg{
+    flex-shrink: 0;
+}
+
+.repo_owner{
+    display: flex;
+    height: 30px    ;
+}
+
+.repo_owner__img{
+    width: 30px;
+}
+
+.repo_owner__img > img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.repo_owner__login{
+    font-size: 22px;
+    color: var(--primary_blue);
+    font-weight: 300;
+    text-align: left;
+    margin-left: 5px;
+}
+
+.repo_owner__login > a{
+    color: var(--primary_blue);
+    text-decoration: none;
+}
+
+.repo_owner__login > a:hover{
+    text-decoration: underline;
+}
+
+
+/* PROGRAMING LANGUAGES */
+.brief_section__programing_languages{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.programing_language{
+    display: flex;
+    margin: 2px 0px;
+    line-height: 20px;
+    height: 20px;
+    align-items: center;
+}
+
+.programing_language__color_label{
+    
+    height: 7px;
+    width: 7px;
+    display: flex;
+    margin: 2px 5px 2px 0px;
+    border-radius: 50%;
+}
+
+.programing_language__name{
+    margin-right: 3px;
+}
+
+.programing_language__percentage{
+    color: rgb(114, 114, 114);
+    font-weight: 200;
+}
+
+
+
+/* CONTRIBUTORS */
+.contributors_tab{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    column-gap: 4%;
+}
+
+/* COMMITS */
+.commits_tab{
+
+}
+
+

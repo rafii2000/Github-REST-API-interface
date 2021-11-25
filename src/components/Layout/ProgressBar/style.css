@@ -1,0 +1,11 @@
+.progress_bar_wrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.progress_bar{
+    width: 0%;
+    height: 3px;
+    background-color: var(--primary_blue);
+}
